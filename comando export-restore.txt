@@ -4,5 +4,5 @@ sobre el CMD en el directorio de instalación de postgre => pg_dump.exe:
 	pg_dump -U postgres -W -F c -b -v -f "C:\...\mundo_valores" mundo_valores
 	
 	createdb -U postgres mundo_valores_importada 
-	pg_restore -U postgres -d mundo_valores_importada "C:\Users\jgmcR\Desktop\TFM\Codigo\backup\mundo_valores.sql"
+	pg_restore -U postgres -d mundo_valores_importada "C:\...\mundo_valores.sql"
 
